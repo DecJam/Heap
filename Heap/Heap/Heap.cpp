@@ -13,11 +13,6 @@ Heap::~Heap()
 
 }
 
-// Removes a specified value
-void Heap::Remove(int value)
-{
-	m_Data.Remove(value);
-}
 
 // Adds a value to the stack
 void Heap::Push(int nValue)
